@@ -5,8 +5,8 @@
   "description": "Monochrome Editorial Developer & Designer Portfolio",
   "type": "module",
   "scripts": {
-    "dev": "python3 -m http.server 8080",
-    "start": "python3 -m http.server 8080"
+    "dev": "python3 -m http.server 8081",
+    "start": "python3 -m http.server 8081"
   },
   "dependencies": {
     "@fiddle-digital/string-tune": "^1.2.0"
