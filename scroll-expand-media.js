@@ -25,9 +25,9 @@ export function initScrollExpandMedia() {
   let rafScheduled = false;
 
   function applyFrame(progress) {
-    // Initial closed shape: exact 300px x 400px as before
-    const startW = isMobile ? 280 : 300;
-    const startH = isMobile ? 360 : 400;
+    // Initial closed shape: refined proportion that cleanly contains title typography
+    const startW = isMobile ? 300 : 360;
+    const startH = isMobile ? 380 : 460;
 
     // Fully expanded size matching the image aspect ratio (1024 / 546)
     const maxWByViewport = window.innerWidth * 0.94;

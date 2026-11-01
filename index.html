@@ -355,11 +355,11 @@
       <div class="container mx-auto flex flex-col items-center justify-start relative z-10 w-full h-full">
         <div class="flex flex-col items-center justify-center w-full h-[100dvh] relative">
           
-          <!-- Expanding Media Card (Closed state: 300px x 400px, expands on scroll) -->
+          <!-- Expanding Media Card (Closed state: 360px x 460px, expands on scroll) -->
           <div
             id="sem-media-container"
             class="absolute z-0 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 rounded-2xl overflow-hidden shadow-2xl transition-none bg-[#07090E]"
-            style="width: 300px; height: 400px; max-width: 95vw; max-height: 85vh; box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9); border: 1px solid rgba(255,255,255,0.35); will-change: width, height; backface-visibility: hidden;"
+            style="width: 360px; height: 460px; max-width: 95vw; max-height: 85vh; box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9); border: 1px solid rgba(255,255,255,0.35); will-change: width, height; backface-visibility: hidden;"
           >
             <!-- Media Image Container: fits 100% of the box without any letterboxing or cropping -->
             <div class="relative w-full h-full overflow-hidden rounded-xl flex items-center justify-center bg-[#07090E]">
@@ -394,7 +394,7 @@
                     TURNING VISIONARY IDEAS INTO FAST, DISTINCTIVE DIGITAL EXPERIENCES
                   </h3>
                   <span class="text-[10px] font-mono tracking-wider uppercase text-neutral-400 shrink-0">
-                    BASED IN INDIA &bull; WORLDWIDE
+                    BASED IN UZBEKISTAN &bull; WORLDWIDE
                   </span>
                 </div>
 
@@ -408,7 +408,7 @@
                     <div class="flex items-center gap-2.5">
                       <span class="text-[10px] font-bold tracking-widest uppercase text-neutral-300">DISCIPLINE &amp; CRAFT</span>
                       <div class="h-px bg-white/15 w-6"></div>
-                      <span class="text-[10px] font-mono tracking-widest uppercase text-neutral-400">UI/UX &bull; WEB DESIGN &bull; WEBFLOW &bull; FIGMA</span>
+                      <span class="text-[10px] font-mono tracking-widest uppercase text-neutral-400">FRONTEND &bull; REACT &bull; UI/UX &bull; WEB ARCHITECTURE</span>
                     </div>
                     <p class="text-xs sm:text-[12px] font-medium leading-relaxed tracking-wider uppercase text-neutral-300">
                       I SPECIALIZE IN BUILDING BESPOKE DIGITAL PRODUCTS WHERE PURPOSEFUL EDITORIAL DESIGN MEETS ROBUST ENGINEERING. CREATING EXPERIENCES WITH INTENTIONAL MOTION, SYSTEMATIC RIGOR, AND MEASURABLE IMPACT.
@@ -429,25 +429,26 @@
                   </div>
                 </div>
               </div>
-            </div>
 
-            <!-- Card Subtitles (Translate Outward) -->
-            <div class="flex flex-col items-center text-center relative z-10 mt-4 pointer-events-none">
-              <p id="sem-date" class="text-xl md:text-2xl text-neutral-300 font-semibold tracking-wider uppercase transition-none drop-shadow">
-                BACKGROUND &amp; VISION
-              </p>
-              <p id="sem-scroll-prompt" class="text-neutral-400 font-medium text-xs tracking-widest uppercase transition-none mt-1 drop-shadow">
-                SCROLL TO EXPAND
-              </p>
+              <!-- Card Subtitles Overlay (Translate Outward on Scroll) -->
+              <div class="absolute bottom-6 inset-x-0 flex flex-col items-center text-center z-10 pointer-events-none px-4">
+                <p id="sem-date" class="text-xs font-bold tracking-[0.25em] text-neutral-300 uppercase transition-none drop-shadow">
+                  BACKGROUND &amp; VISION
+                </p>
+                <p id="sem-scroll-prompt" class="text-neutral-400 font-mono text-[10px] tracking-widest uppercase transition-none mt-1.5 drop-shadow flex items-center gap-1.5">
+                  <span>SCROLL TO EXPAND</span>
+                  <svg class="w-3 h-3 text-neutral-400 animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M19 14l-7 7m0 0l-7-7m7 7V3" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+                </p>
+              </div>
             </div>
           </div>
 
           <!-- Splitting Title Header (ABOUT translates left, ME translates right) -->
-          <div class="flex items-center justify-center text-center gap-2 sm:gap-4 w-full relative z-10 pointer-events-none flex-col" style="will-change: transform; backface-visibility: hidden;">
-            <h2 id="sem-title-first" class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight transition-none drop-shadow-2xl" style="will-change: transform, opacity;">
+          <div class="flex items-center justify-center text-center gap-1 sm:gap-2 w-full relative z-10 pointer-events-none flex-col" style="will-change: transform; backface-visibility: hidden;">
+            <h2 id="sem-title-first" class="text-4xl sm:text-5xl md:text-6xl font-black text-white uppercase tracking-tight leading-none transition-none drop-shadow-2xl select-none" style="will-change: transform, opacity;">
               ABOUT
             </h2>
-            <h2 id="sem-title-rest" class="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-black text-white uppercase tracking-tight transition-none drop-shadow-2xl" style="will-change: transform, opacity;">
+            <h2 id="sem-title-rest" class="text-4xl sm:text-5xl md:text-6xl font-black text-white uppercase tracking-tight leading-none transition-none drop-shadow-2xl select-none" style="will-change: transform, opacity;">
               ME
             </h2>
           </div>
