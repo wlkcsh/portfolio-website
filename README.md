@@ -11,7 +11,7 @@
   </p>
 
   <p align="center">
-    Crafted by <strong><a href="https://github.com/Rakhmanov7">Atabek Rakhmanov</a></strong> — Frontend Developer.
+    Crafted by <strong><a href="https://github.com/wlkcsh">Atabek Rakhmanov</a></strong> — Frontend Developer.
   </p>
 
 </div>
@@ -139,7 +139,7 @@ npx live-server
 - **Telegram**: [@Wlkcsh](https://t.me/Wlkcsh)
 - **Instagram**: [@rakhmanovv_v](https://www.instagram.com/rakhmanovv_v/)
 - **LinkedIn**: [Atabek Rakhmanov](https://www.linkedin.com/in/raxmanov-atabek)
-- **GitHub**: [@Rakhmanov7](https://github.com/Rakhmanov7)
+- **GitHub**: [@wlkcsh](https://github.com/wlkcsh)
 
 ---
 
